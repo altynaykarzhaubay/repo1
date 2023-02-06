@@ -1,3 +1,5 @@
+import math
+
 #Salem, Alem сөзін шығару
 print("Salem, Alem")
 
@@ -9,4 +11,4 @@ def title():
     print("TITLE")
 
 def kvadrat(a):
-    return a*a
+    return math.pow(a, 2)

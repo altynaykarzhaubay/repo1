@@ -3,12 +3,12 @@ public class Demo{
         System.out.println("Salem.Alem!");
 
         int a = 12 ;
-        int res ;
+        double res ;
         res = kvadrat(a) ;
         System.out.print(res);
     }
 
-    public static int kvadrat(int a){
-        return a*a;
+    public static double kvadrat(int a){
+        return Math.pow(a,2);
     }
 }
